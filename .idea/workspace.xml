@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cec0fbfc-c965-4321-be29-eb537320ae26" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/SkyCastProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkyCast Data.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airports.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_collection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exploration.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_main.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
-    </list>
+    <list default="true" id="cec0fbfc-c965-4321-be29-eb537320ae26" name="Changes" comment="Skycast frame code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,8 +95,17 @@
       <workItem from="1747752158548" duration="1385000" />
       <workItem from="1747758854860" duration="1643000" />
       <workItem from="1747997581330" duration="601000" />
-      <workItem from="1748188429086" duration="10716000" />
+      <workItem from="1748188429086" duration="11028000" />
     </task>
+    <task id="LOCAL-00001" summary="Skycast frame code">
+      <option name="closed" value="true" />
+      <created>1748204401315</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748204401315</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +121,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Skycast frame code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Skycast frame code" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SkyCastProject$SkyCastProject.coverage" NAME="SkyCastProject Coverage Results" MODIFIED="1747760179607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
