@@ -1,0 +1,27 @@
+# test_main.http
+@baseUrl = https://flightxml.flightaware.com/json/FlightXML3/
+@apiKey = your_flightaware_key
+@weatherKey = your_weather_key
+
+### 1. Test Flight with Route Weather
+GET {{baseUrl}}FlightInfoStatus
+    ?ident=AI101
+    &include_ex_data=1
+x-apikey: {{apiKey}}
+
+### 2. Test Route Weather API
+GET https://api.openweathermap.org/data/3.0/onecall/timemachine
+    ?lat=28.6139
+    &lon=77.2090
+    &dt={{$timestamp-86400}}
+    &appid={{weatherKey}}
+    &units=metric
+
+### 3. Test Airport Departures Board
+GET {{baseUrl}}AirportBoards
+    ?airport=VIDP
+    &howMany=5
+    &filter=airline
+    &startTime={{$timestamp-3600}}
+    &endTime={{$timestamp}}
+x-apikey: {{apiKey}}
